@@ -41,16 +41,7 @@
   .hanzure {
     font-family: "Zen Maru Gothic", sans-serif;
     font-weight: 900;
-    position: relative;
-    display: inline-block;
-  }
-  .hanzure::before {
-    content: attr(data-text);
-    position: absolute;
-    left: 3px; top: 3px;
-    color: var(--persimmon);
-    opacity: .35;
-    z-index: -1;
+    text-shadow: 3px 3px 0 rgba(232,112,42,.35);
   }
 
   /* ---------- hero ---------- */
@@ -152,8 +143,8 @@
     margin-bottom: 4px;
   }
   .course:nth-child(1) .tag { background: var(--leaf); }
-  .course:nth-child(2) .tag { background: var(--ink); }
-  .course:nth-child(3) .tag { background: var(--persimmon); }
+  .course:nth-child(2) .tag { background: #3caed3; }
+  .course:nth-child(3) .tag { background: #e082a5; }
   .course h3 {
     font-family: "Zen Maru Gothic", sans-serif;
     font-weight: 700;
@@ -190,8 +181,8 @@
 
   <header>
     <span class="hero-eyebrow">2026.7.26（日）広島県呉市</span>
-    <h1><span class="hanzure" data-text="“絵が描けない人”のための">“絵が描けない人”のための</span><br>
-        <span class="hanzure" data-text="版画、発明しました。">版画、発明しました。</span></h1>
+    <h1><span class="hanzure">“絵が描けない人”のための</span><br>
+        <span class="hanzure">版画、発明しました。</span></h1>
     <p class="hero-sub">切って、はって、インクをつけて、そーっとめくる。<br>絵ごころ不要の紙版画ワークショップです。</p>
     <div class="chips">
       <span class="chip">夏休みの自由研究に</span>
@@ -204,34 +195,34 @@
     <span class="big">かみはんが けんきゅうシートを無料ダウンロード</span>
     <span class="small">PDF・A4で2ページ|自由研究の提出用の土台に使えます</span>
   </a>
-  <p class="dl-note">印刷してそのまま提出しても、模造紙にまとめる下書きにしてもOK。</p>
+  <p class="dl-note">印刷してそのまま提出しても、これを参考に他の紙にまとめを作ってもOK。</p>
 
   <section>
     <h2 class="sec-head">ワークショップのご案内</h2>
     <div class="card">
       <dl class="info">
         <dt>日にち</dt><dd>2026年7月26日（日）</dd>
-        <dt>時間</dt><dd><span class="todo">【13時半～16時半】</span></dd>
+        <dt>時間</dt><dd>13時半〜16時半</dd>
         <dt>場所</dt><dd>おんど観光文化会館うずしお（広島県呉市）</dd>
-        <dt>参加費</dt><dd><span class="todo">【参加費300円】</span>（型紙の材料費込み）</dd>
+        <dt>参加費</dt><dd>300円（型紙の材料費込み）</dd>
         <dt>申込み</dt><dd><span class="todo">【申込方法 or 予約不要・随時受付】</span></dd>
       </dl>
     </div>
 
     <div class="courses">
       <div class="course">
-        <span class="tag">小さなお子さま</span>
-        <h3>ぬって刷る かんたん体験</h3>
+        <span class="tag">小さなお子様にもおススメ</span>
+        <h3>さっと刷るだけ　かんたん体験</h3>
         <p>できあがった版に色をぺたぺた。紙をのせてこすって、めくったら完成！</p>
       </div>
       <div class="course">
-        <span class="tag">小学生</span>
-        <h3>型紙でつくる オリジナル版画</h3>
+        <span class="tag">小学生ぐらいからチャレンジ</span>
+        <h3>型紙でつくる　オリジナル版画</h3>
         <p>型紙に絵を描いたり、切り方を工夫したり。自分だけの一枚がつくれます。</p>
       </div>
       <div class="course">
-        <span class="tag">大人・30分</span>
-        <h3>型紙づくり 全工程コース</h3>
+        <span class="tag">絵を描ける人向け</span>
+        <h3>じっくり型紙づくりから　作品制作</h3>
         <p>型紙づくりから刷りまでぜんぶ自分の手で。お孫さんの隣でどうぞ。</p>
       </div>
     </div>
